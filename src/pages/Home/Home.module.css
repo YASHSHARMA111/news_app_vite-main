@@ -1,0 +1,60 @@
+.mainContainer {
+    position: relative;
+    /* height: 100vh; */
+}
+
+.exploreButton {
+    position: fixed;
+    bottom: 20px;
+    background-color: rgb(255, 96, 123);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #072d4b;
+}
+
+.newsContainer {
+    padding: 10px 20px;
+}
+
+.newsCategories {
+    margin-top: 14px;
+    width: 100%;
+    overflow-y: scroll;
+    height: 50px;
+}
+
+.newsCategories::-webkit-scrollbar {
+    display: none;
+}
+
+.newsCategories span {
+    font-size: 12px;
+    margin-right: 12px;
+    background-color: white;
+    padding: 8px 14px;
+    color: #072d4b;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.newsCategories span.active {
+    color: white;
+    background-color: rgb(255, 71, 102);
+}

@@ -1,0 +1,9 @@
+.heading {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    color: #2c332e;
+    background-color: dark;
+}
